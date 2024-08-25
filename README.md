@@ -16,4 +16,7 @@ dotnet build
 ```csharp
 dotnet run
 ```
-5. Launch http://localhost:5136/swagger in your browser to view the APIs.
+5. Open http://localhost:5136/swagger in your browser to view and interact with the APIs. You can execute the API by sending the desired request body directly from the Swagger interface. Alternatively, you can run the API using the HTTP file located at InfoTrackBookingAPI/InfoTrackBookingAPI.http. Simply update the request as needed, and it should work.
+
+
+
