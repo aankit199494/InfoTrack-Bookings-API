@@ -1,0 +1,11 @@
+@InfoTrackBookingAPI_HostAddress = http://localhost:5136
+
+POST {{InfoTrackBookingAPI_HostAddress}}/api/v1/booking
+Content-Type: application/json
+
+{
+  "BookingTime": "10:59:59",
+  "Name": "John Doe"
+}
+
+###
